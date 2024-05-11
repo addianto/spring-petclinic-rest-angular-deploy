@@ -11,6 +11,7 @@ git clone -b chore/deploy-nginx-unprivileged https://github.com/addianto/spring-
 ```
 
 Ensure the `frontend` is ignored by the existing [`.gitignore`](./gitignore) file to avoid adding the frontend repository as Git submodule:
+(while it is not a problem, Git submodule may complicate Git operations for those who are not familiar with advanced Git usage)
 
 ```shell
 cat .gitignore
